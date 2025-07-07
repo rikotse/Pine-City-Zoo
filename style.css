@@ -201,3 +201,85 @@ textarea {
   transform: scale(1.03);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+
+/* ===== Responsive styles for tablets and phones ===== */
+@media (max-width: 800px) {
+  #header {
+    height: 60px;
+  }
+  #header img {
+    height: 50%;
+    padding-top: 5px;
+  }
+  #tabs-top,
+  #tabs-bottom {
+    height: 35px;
+  }
+  #tabs-top a,
+  #tabs-bottom a {
+    font-size: 14px;
+    padding-top: 8px;
+  }
+  #main {
+    margin-top: 95px;
+    background-size: cover;
+  }
+  #info-box-full {
+    width: 98%;
+    padding: 5px;
+  }
+  .info-box {
+    width: 98%;
+    height: auto;
+    min-height: 70px;
+    font-size: 14px;
+  }
+  .info-box img {
+    height: 40px;
+    margin: 5px;
+  }
+  h1.info-box-weather-icon {
+    font-size: 40px;
+  }
+  img.info-box-weather-icon {
+    height: 20px;
+    width: 20px !important;
+    margin: 5px;
+  }
+  table,
+  td {
+    font-size: 13px;
+  }
+}
+
+/* Extra small devices (phones) */
+@media (max-width: 500px) {
+  #header {
+    height: 45px;
+  }
+  #tabs-top,
+  #tabs-bottom {
+    height: 28px;
+  }
+  #tabs-top a,
+  #tabs-bottom a {
+    font-size: 11px;
+    padding-top: 5px;
+  }
+  #main {
+    margin-top: 73px;
+  }
+  h1.info-box-weather-icon {
+    font-size: 28px;
+  }
+  #info-box-full,
+  .info-box {
+    width: 100%;
+    padding: 2px;
+    font-size: 12px;
+  }
+  table,
+  td {
+    font-size: 11px;
+  }
+}
