@@ -86,7 +86,12 @@ body.fade-in {
   background: url("Images/map-blur.png");
   background-repeat: repeat-y;
 }
-
+#main-home img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
 #content {
   padding-top: 1px;
   padding-bottom: 50px;
@@ -275,13 +280,16 @@ textarea {
     padding-top: 14px;
   }
   #main {
-    margin-top: 120px;
+    margin-top: 90px;
     background: url("Images/map-blur.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     min-height: 100vh;
+  }
+  #main-home {
+    margin-top: 90px;
   }
   h1.info-box-weather-icon {
     font-size: 28px;
