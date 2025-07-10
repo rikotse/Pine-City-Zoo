@@ -299,12 +299,11 @@ textarea {
     padding-top: 14px;
   }
   #main {
-    margin-top: 120px;
+    margin-top: 140px;
     background: url("Images/map-blur.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
     min-height: 100vh;
   }
   #main-home {
@@ -320,7 +319,7 @@ textarea {
   }
   .info-box {
     width: 100%;
-    min-height: 50px;
+    min-height: 58px;
     font-size: 12px;
     padding: 4px;
     flex-direction: column;
@@ -335,7 +334,7 @@ textarea {
   }
   .info-box h3,
   .info-box p {
-    font-size: 13px;
+    font-size: 12px;
     margin: 5px 0;
   }
 }
