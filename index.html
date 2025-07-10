@@ -141,6 +141,12 @@
           }
         });
       });
+      window.addEventListener("DOMContentLoaded", function () {
+        if (window.imageMapResize) {
+          imageMapResize();
+        }
+      });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/image-map-resizer@1.0.10/js/imageMapResizer.min.js"></script>
   </body>
 </html>
