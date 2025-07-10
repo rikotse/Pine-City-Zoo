@@ -218,19 +218,21 @@ textarea {
   #tabs-top a,
   #tabs-bottom a {
     font-size: 15px;
-    padding-top: 20px;
+    padding-top: 15px;
     height: 45px;
   }
   #main {
     margin-top: 130px;
     background: url("Images/map-blur.png");
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     min-height: 100vh;
   }
   #info-box-full {
     width: 98%;
-    padding: 5px;
+    padding: 1px;
   }
   .info-box {
     width: 98%;
@@ -240,7 +242,9 @@ textarea {
   }
   .info-box img {
     height: 40px;
-    margin: 5px;
+    margin: 12px;
+    float: left;
+    padding-top: 5px;
   }
   h1.info-box-weather-icon {
     font-size: 40px;
@@ -268,13 +272,15 @@ textarea {
   #tabs-top a,
   #tabs-bottom a {
     font-size: 11px;
-    padding-top: 12px;
+    padding-top: 14px;
   }
   #main {
     margin-top: 120px;
     background: url("Images/map-blur.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     min-height: 100vh;
   }
   h1.info-box-weather-icon {
