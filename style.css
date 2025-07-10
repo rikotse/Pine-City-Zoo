@@ -17,7 +17,7 @@ body.fade-in {
   left: 0;
   z-index: 500;
   width: 100%;
-  height: 80px;
+  height: 90px;
   background-image: url("Images/wood-bg.png");
   background-repeat: repeat-x;
 }
@@ -48,7 +48,7 @@ body.fade-in {
   color: white;
   text-align: center;
   text-decoration: none;
-  padding-top: 12px;
+  padding-top: 10px;
 }
 
 /*===== MAIN-HOME =====*/
@@ -205,7 +205,7 @@ textarea {
 /* ===== Responsive styles for tablets and phones ===== */
 @media (max-width: 800px) {
   #header {
-    height: 60px;
+    height: 90px;
   }
   #header img {
     height: 50%;
@@ -213,16 +213,20 @@ textarea {
   }
   #tabs-top,
   #tabs-bottom {
-    height: 35px;
+    height: 50px;
   }
   #tabs-top a,
   #tabs-bottom a {
-    font-size: 14px;
-    padding-top: 8px;
+    font-size: 15px;
+    padding-top: 15px;
+    height: 45px;
   }
   #main {
-    margin-top: 95px;
+    margin-top: 130px;
+    background: url("Images/map-blur.png");
     background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
   }
   #info-box-full {
     width: 98%;
@@ -255,19 +259,23 @@ textarea {
 /* Extra small devices (phones) */
 @media (max-width: 500px) {
   #header {
-    height: 45px;
+    height: 80px;
   }
   #tabs-top,
   #tabs-bottom {
-    height: 28px;
+    height: 45px;
   }
   #tabs-top a,
   #tabs-bottom a {
     font-size: 11px;
-    padding-top: 5px;
+    padding-top: 10px;
   }
   #main {
-    margin-top: 73px;
+    margin-top: 120px;
+    background: url("Images/map-blur.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
   }
   h1.info-box-weather-icon {
     font-size: 28px;
