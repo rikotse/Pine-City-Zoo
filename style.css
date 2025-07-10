@@ -281,7 +281,7 @@ textarea {
     padding-top: 14px;
   }
   #main {
-    margin-top: 90px;
+    margin-top: 70px;
     background: url("Images/map-blur.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -290,7 +290,7 @@ textarea {
     min-height: 100vh;
   }
   #main-home {
-    margin-top: 90px;
+    margin-top: 70px;
   }
   h1.info-box-weather-icon {
     font-size: 28px;
